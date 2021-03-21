@@ -3,7 +3,7 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-bot = Bot(token='токен сюды')
+bot = Bot(token='токен сюды @bot_father')
 disp = Dispatcher(bot)
 
 @disp.message_handler()
